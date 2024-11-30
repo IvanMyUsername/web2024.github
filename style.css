@@ -85,11 +85,6 @@ td {
     position: relative;
 }
 
-img {
-    width: 50px;
-    height: 50px;
-   
-}
 
 img:hover {
     transform: scale(1.1); 
@@ -165,7 +160,6 @@ article img {
 
 footer {
     background-color: #3369bb;
-    position: fixed; 
     left: 0;
     bottom: 0;
     width: 100%; 
@@ -247,3 +241,59 @@ h1, h2, h3, p, span, li, a {
     padding: 10px;         
     box-sizing: border-box; 
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #d78edd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00aeff;
+}
+
+tr.even {
+    background-color: #d4e8f8;
+}
+
+tr.odd {
+    background-color: #ffffff;
+}
+
+.project {
+    margin-bottom: 30px; 
+}
+
+.project-image {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+.project-image img {
+    max-width: 100%;
+    max-height: 300px; 
+    width: auto;       
+    display: block;
+}
+
+.project hr {
+    border: 1px solid #00aeff; 
+    margin-top: 20px;     
+}
+.project {
+    margin: 20px; 
+}
+
+.project p {
+  padding: 20px; 
+}
+li a img {
+    width: 50px;
+    height: 50px;
+  }
